@@ -60,19 +60,42 @@ public class Example : MonoBehaviour
         // and the "Jump" action state, which is a boolean value
 
         Vector2 moveValue = moveAction.ReadValue<Vector2>();
+
+        // ! added
+        bool forwardPressed = Input.GetKey(KeyCode.W);
+        bool isWalking = animator.GetBool("isWalking");
+
+        bool runningPressed = Input.GetKey(KeyCode.LeftShift);
+        bool isRunning = animator.GetBool("isRunning");
+
+        
         // your movement code here
 
         movementX = moveValue.x;
         movementY = moveValue.y;
 
         // ! added
-        if (moveValue.magnitude > 0.1f)
+        //walking
+        if (!isWalking && forwardPressed)
         {
             animator.SetBool("isWalking", true);
-        } else
+        }
+        if (isWalking && !forwardPressed)
         {
             animator.SetBool("isWalking", false);
         }
+
+        // running
+        if (forwardPressed && runningPressed)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        if (!forwardPressed || !runningPressed)
+        {
+            animator.SetBool("isRunning", false);
+        }
+
+
 
         
 
