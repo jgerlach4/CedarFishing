@@ -26,12 +26,20 @@ public class Example : MonoBehaviour
     public float mouseSensitivity = 0.2f;
     private Transform cameraTransform;
 
+    // ! added
+    Animator animator;
+
     private void Start()
     {
         // Find the references to the "Move" and "Jump" actions
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
         lookAction = InputSystem.actions.FindAction("Look");
+
+        //! added
+        moveAction.Enable();
+        jumpAction.Enable();
+        lookAction.Enable();
 
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
@@ -41,6 +49,9 @@ public class Example : MonoBehaviour
         // Hides the mouse
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
         UnityEngine.Cursor.visible = false;
+
+        // ! added
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -53,6 +64,17 @@ public class Example : MonoBehaviour
 
         movementX = moveValue.x;
         movementY = moveValue.y;
+
+        // ! added
+        if (moveValue.magnitude > 0.1f)
+        {
+            animator.SetBool("isWalking", true);
+        } else
+        {
+            animator.SetBool("isWalking", false);
+        }
+
+        
 
         RotateCamera();
     }
