@@ -22,6 +22,9 @@ public class Example : MonoBehaviour
 
     public float speed = 10;
 
+    public float runSpeed = 20;
+    private bool running = false;
+
     // Camera Rotation
     public float mouseSensitivity = 0.2f;
     private Transform cameraTransform;
@@ -68,6 +71,9 @@ public class Example : MonoBehaviour
         bool runningPressed = Input.GetKey(KeyCode.LeftShift);
         bool isRunning = animator.GetBool("isRunning");
 
+        bool castPressed = Input.GetKey(KeyCode.E);
+        bool isCasting = animator.GetBool("isCasting");
+
         
         // your movement code here
 
@@ -89,10 +95,22 @@ public class Example : MonoBehaviour
         if (forwardPressed && runningPressed)
         {
             animator.SetBool("isRunning", true);
+            running = true;
         }
         if (!forwardPressed || !runningPressed)
         {
             animator.SetBool("isRunning", false);
+            running = false;
+        }
+
+        //casting
+        if (!forwardPressed && !runningPressed && castPressed)
+        {
+            animator.SetBool("isCasting", true);
+        }
+        if (!castPressed || forwardPressed || runningPressed)
+        {
+            animator.SetBool("isCasting", false);
         }
 
 
@@ -104,9 +122,10 @@ public class Example : MonoBehaviour
 
     void FixedUpdate()
     {
+        float currentSpeed = running ? runSpeed : speed;
 
         Vector3 movement = (transform.right * movementX + transform.forward * movementY).normalized;
-        Vector3 targetVelocity = movement * speed;
+        Vector3 targetVelocity = movement * currentSpeed;
 
         // Apply movement to the Rigidbody
         Vector3 velocity = rb.linearVelocity;
