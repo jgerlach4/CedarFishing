@@ -22,9 +22,15 @@ public class Example : MonoBehaviour
 
     public float speed = 10;
 
+    public float runSpeed = 20;
+    private bool running = false;
+
     // Camera Rotation
     public float mouseSensitivity = 0.2f;
     private Transform cameraTransform;
+
+    // ! added
+    Animator animator;
 
     private void Start()
     {
@@ -32,6 +38,11 @@ public class Example : MonoBehaviour
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
         lookAction = InputSystem.actions.FindAction("Look");
+
+        //! added
+        moveAction.Enable();
+        jumpAction.Enable();
+        lookAction.Enable();
 
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
@@ -41,6 +52,9 @@ public class Example : MonoBehaviour
         // Hides the mouse
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
         UnityEngine.Cursor.visible = false;
+
+        // ! added
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -49,19 +63,69 @@ public class Example : MonoBehaviour
         // and the "Jump" action state, which is a boolean value
 
         Vector2 moveValue = moveAction.ReadValue<Vector2>();
+
+        // ! added
+        bool forwardPressed = Input.GetKey(KeyCode.W);
+        bool isWalking = animator.GetBool("isWalking");
+
+        bool runningPressed = Input.GetKey(KeyCode.LeftShift);
+        bool isRunning = animator.GetBool("isRunning");
+
+        bool castPressed = Input.GetKey(KeyCode.E);
+        bool isCasting = animator.GetBool("isCasting");
+
+        
         // your movement code here
 
         movementX = moveValue.x;
         movementY = moveValue.y;
+
+        // ! added
+        //walking
+        if (!isWalking && forwardPressed)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        if (isWalking && !forwardPressed)
+        {
+            animator.SetBool("isWalking", false);
+        }
+
+        // running
+        if (forwardPressed && runningPressed)
+        {
+            animator.SetBool("isRunning", true);
+            running = true;
+        }
+        if (!forwardPressed || !runningPressed)
+        {
+            animator.SetBool("isRunning", false);
+            running = false;
+        }
+
+        //casting
+        if (!forwardPressed && !runningPressed && castPressed)
+        {
+            animator.SetBool("isCasting", true);
+        }
+        if (!castPressed || forwardPressed || runningPressed)
+        {
+            animator.SetBool("isCasting", false);
+        }
+
+
+
+        
 
         RotateCamera();
     }
 
     void FixedUpdate()
     {
+        float currentSpeed = running ? runSpeed : speed;
 
         Vector3 movement = (transform.right * movementX + transform.forward * movementY).normalized;
-        Vector3 targetVelocity = movement * speed;
+        Vector3 targetVelocity = movement * currentSpeed;
 
         // Apply movement to the Rigidbody
         Vector3 velocity = rb.linearVelocity;
