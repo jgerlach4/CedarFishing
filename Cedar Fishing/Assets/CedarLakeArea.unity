@@ -781,7 +781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c9f51d79cb24d44b2f27a71c23bfec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Example
-  speed: 50
+  speed: 10
   mouseSensitivity: 0.2
 --- !u!54 &449717887
 Rigidbody:
@@ -2438,7 +2438,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1500
+  far clip plane: 2000
   field of view: 60
   orthographic: 0
   orthographic size: 5
