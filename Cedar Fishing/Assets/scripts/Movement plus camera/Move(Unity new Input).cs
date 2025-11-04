@@ -44,17 +44,7 @@ public class Example : MonoBehaviour
 
         Vector2 moveValue = moveAction.ReadValue<Vector2>();
 
-        // ! added
-        bool forwardPressed = Input.GetKey(KeyCode.W);
-        bool isWalking = animator.GetBool("isWalking");
 
-        bool runningPressed = Input.GetKey(KeyCode.LeftShift);
-        bool isRunning = animator.GetBool("isRunning");
-
-        bool castPressed = Input.GetKey(KeyCode.E);
-        bool isCasting = animator.GetBool("isCasting");
-
-        
         // your movement code here
 
         movementX = moveValue.x;
