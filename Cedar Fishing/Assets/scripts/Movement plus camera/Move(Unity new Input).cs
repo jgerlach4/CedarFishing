@@ -31,7 +31,6 @@ public class Example : MonoBehaviour
         //! added
         moveAction.Enable();
         jumpAction.Enable();
-        lookAction.Enable();
 
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
@@ -50,44 +49,6 @@ public class Example : MonoBehaviour
         movementX = moveValue.x;
         movementY = moveValue.y;
 
-        // ! added
-        //walking
-        if (!isWalking && forwardPressed)
-        {
-            animator.SetBool("isWalking", true);
-        }
-        if (isWalking && !forwardPressed)
-        {
-            animator.SetBool("isWalking", false);
-        }
-
-        // running
-        if (forwardPressed && runningPressed)
-        {
-            animator.SetBool("isRunning", true);
-            running = true;
-        }
-        if (!forwardPressed || !runningPressed)
-        {
-            animator.SetBool("isRunning", false);
-            running = false;
-        }
-
-        //casting
-        if (!forwardPressed && !runningPressed && castPressed)
-        {
-            animator.SetBool("isCasting", true);
-        }
-        if (!castPressed || forwardPressed || runningPressed)
-        {
-            animator.SetBool("isCasting", false);
-        }
-
-
-
-        
-
-        RotateCamera();
     }
 
     void FixedUpdate()
