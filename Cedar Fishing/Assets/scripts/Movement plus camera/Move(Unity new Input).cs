@@ -17,6 +17,11 @@ public class Example : MonoBehaviour
 
     public float speed = 10;
 
+    public float runSpeed = 20;
+    private bool running = false;
+
+    //Animator animator;
+
     private void Start()
     {
         // Find the references to the "Move" and "Jump" actions
