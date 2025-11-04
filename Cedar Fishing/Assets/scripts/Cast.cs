@@ -39,8 +39,9 @@ public class Cast : MonoBehaviour
 
             bobberGuide.SetActive(true);
         }
-        // Check to see if the bobber guide is rendered
-        // If it is, then you are able to move it with WASD
+
+        // Check to see if the move script is disabled
+        // If it is, then you are able to move the bobber guide with WASD
         if (move.enabled == false)
         {
             Vector2 moveValue = moveAction.ReadValue<Vector2>();
