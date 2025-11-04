@@ -28,13 +28,6 @@ public class Example : MonoBehaviour
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
 
-<<<<<<< Updated upstream
-=======
-        //! added
-        //moveAction.Enable();
-        //jumpAction.Enable();
-
->>>>>>> Stashed changes
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
     }
@@ -45,61 +38,12 @@ public class Example : MonoBehaviour
         // and the "Jump" action state, which is a boolean value
 
         Vector2 moveValue = moveAction.ReadValue<Vector2>();
-<<<<<<< Updated upstream
-=======
 
-        // ! added
-        //bool forwardPressed = Input.GetKey(KeyCode.W);
-        //bool isWalking = animator.GetBool("isWalking");
-
-        //bool runningPressed = Input.GetKey(KeyCode.LeftShift);
-        //bool isRunning = animator.GetBool("isRunning");
-
-        //bool castPressed = Input.GetKey(KeyCode.E);
-        //bool isCasting = animator.GetBool("isCasting");
-
-        
->>>>>>> Stashed changes
         // your movement code here
 
         movementX = moveValue.x;
         movementY = moveValue.y;
 
-<<<<<<< Updated upstream
-=======
-        // ! added
-        //walking
-        //if (!isWalking && forwardPressed)
-        //{
-        //    animator.SetBool("isWalking", true);
-        //}
-        //if (isWalking && !forwardPressed)
-        //{
-        //    animator.SetBool("isWalking", false);
-        //}
-
-        //// running
-        //if (forwardPressed && runningPressed)
-        //{
-        //    animator.SetBool("isRunning", true);
-        //    running = true;
-        //}
-        //if (!forwardPressed || !runningPressed)
-        //{
-        //    animator.SetBool("isRunning", false);
-        //    running = false;
-        //}
-
-        //casting
-        //if (!forwardPressed && !runningPressed && castPressed)
-        //{
-        //    animator.SetBool("isCasting", true);
-        //}
-        //if (!castPressed || forwardPressed || runningPressed)
-        //{
-        //    animator.SetBool("isCasting", false);
-        //}
->>>>>>> Stashed changes
     }
 
     void FixedUpdate()
