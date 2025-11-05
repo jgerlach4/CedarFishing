@@ -20,7 +20,7 @@ public class Example : MonoBehaviour
     public float runSpeed = 20;
     private bool running = false;
 
-    //Animator animator;
+    Animator animator;
 
     private void Start()
     {
@@ -34,6 +34,8 @@ public class Example : MonoBehaviour
 
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -43,11 +45,54 @@ public class Example : MonoBehaviour
 
         Vector2 moveValue = moveAction.ReadValue<Vector2>();
 
+        // ! added
+        bool forwardPressed = Input.GetKey(KeyCode.W);
+        bool isWalking = animator.GetBool("isWalking");
+
+        bool runningPressed = Input.GetKey(KeyCode.LeftShift);
+        bool isRunning = animator.GetBool("isRunning");
+
+        bool castPressed = Input.GetKey(KeyCode.E);
+        bool isCasting = animator.GetBool("isCasting");
+
 
         // your movement code here
 
         movementX = moveValue.x;
         movementY = moveValue.y;
+
+        // ! added
+        //walking
+        if (!isWalking && forwardPressed)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        if (isWalking && !forwardPressed)
+        {
+            animator.SetBool("isWalking", false);
+        }
+
+        // running
+        if (forwardPressed && runningPressed)
+        {
+            animator.SetBool("isRunning", true);
+            running = true;
+        }
+        if (!forwardPressed || !runningPressed)
+        {
+            animator.SetBool("isRunning", false);
+            running = false;
+        }
+
+        //casting
+        if (!forwardPressed && !runningPressed && castPressed)
+        {
+            animator.SetBool("isCasting", true);
+        }
+        if (!castPressed || forwardPressed || runningPressed)
+        {
+            animator.SetBool("isCasting", false);
+        }
 
     }
 
