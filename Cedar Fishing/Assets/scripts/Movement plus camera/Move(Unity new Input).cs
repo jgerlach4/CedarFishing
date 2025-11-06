@@ -85,14 +85,14 @@ public class Example : MonoBehaviour
         }
 
         //casting
-        if (!forwardPressed && !runningPressed && castPressed)
-        {
-            animator.SetBool("isCasting", true);
-        }
-        if (!castPressed || forwardPressed || runningPressed)
-        {
-            animator.SetBool("isCasting", false);
-        }
+        //if (!forwardPressed && !runningPressed && castPressed)
+        //{
+        //    animator.SetBool("isCasting", true);
+        //}
+        //if (!castPressed || forwardPressed || runningPressed)
+        //{
+        //    animator.SetBool("isCasting", false);
+        //}
 
     }
 

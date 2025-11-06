@@ -14,6 +14,10 @@ public class Cast : MonoBehaviour
 
     public GameObject bobberGuide;
     public GameObject bobber;
+    public GameObject Line;
+    public float bobberSpeed = (float)0.2;
+
+    Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +27,8 @@ public class Cast : MonoBehaviour
         click = InputSystem.actions.FindAction("Attack");
 
         move = GetComponent<Example>();
+
+        animator = GetComponent<Animator>();
 
     }
 
@@ -50,7 +56,7 @@ public class Cast : MonoBehaviour
             movementY = moveValue.y;
 
             Vector3 movement = (transform.right * movementX + transform.forward * movementY).normalized;
-            Vector3 targetVelocity = movement * (float)0.02;
+            Vector3 targetVelocity = movement * bobberSpeed;
 
             bobberGuide.transform.position += targetVelocity;
 
@@ -61,6 +67,8 @@ public class Cast : MonoBehaviour
                 bobberGuide.SetActive(false);
                 bobber.SetActive(true);
                 bobber.transform.position = bobberGuide.transform.position;
+                Line.SetActive(true);
+                animator.SetBool("isCasting", true);
             }
 
 
