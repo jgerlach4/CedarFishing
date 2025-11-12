@@ -11,6 +11,7 @@ public class Cast : MonoBehaviour
     private float movementY;
 
     private MonoBehaviour move;
+    private MonoBehaviour fishOn;
 
     public GameObject bobberGuide;
     public GameObject bobber;
@@ -27,6 +28,7 @@ public class Cast : MonoBehaviour
         click = InputSystem.actions.FindAction("Attack");
 
         move = GetComponent<Example>();
+        fishOn = GetComponent<fishOn>();
 
         animator = GetComponent<Animator>();
 
@@ -69,6 +71,8 @@ public class Cast : MonoBehaviour
                 bobber.transform.position = bobberGuide.transform.position;
                 Line.SetActive(true);
                 animator.SetBool("isCasting", true);
+                fishOn.enabled = true;
+
             }
 
 
