@@ -66,18 +66,22 @@ public class Cast : MonoBehaviour
             // The bobber will go to where the bobber guide is
             if (click.triggered)
             {
-                bobberGuide.SetActive(false);
-                bobber.SetActive(true);
-                bobber.transform.position = bobberGuide.transform.position;
-                Line.SetActive(true);
                 animator.SetBool("isCasting", true);
-                fishOn.enabled = true;
-
+                Invoke("renderLine", 2.2f);
             }
 
 
         }
 
 
+    }
+
+    void renderLine()
+    {
+        bobberGuide.SetActive(false);
+        bobber.SetActive(true);
+        bobber.transform.position = bobberGuide.transform.position;
+        Line.SetActive(true);
+        fishOn.enabled = true;
     }
 }

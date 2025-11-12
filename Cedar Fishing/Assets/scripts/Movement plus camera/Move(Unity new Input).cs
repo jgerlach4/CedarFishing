@@ -110,7 +110,9 @@ public class Example : MonoBehaviour
 
         //Vector3 movement = new Vector3(movementX, 0.0f, movementY);
         rb.linearVelocity = velocity;
-        
+    
+        Vector3 gravity = new Vector3 (0, -100, 0);
+        rb.AddForce(gravity);
     }
 
 }
