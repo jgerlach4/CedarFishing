@@ -10,7 +10,6 @@ public class Look : MonoBehaviour
 
     private float lookX;
     private float lookY;
-    private float lookZ;
 
     // Camera Rotation
     public float mouseSensitivity = 0.2f;
@@ -34,11 +33,11 @@ public class Look : MonoBehaviour
         Vector2 lookValue = lookAction.ReadValue<Vector2>();
 
         lookX = lookValue.x * mouseSensitivity;
-        lookY -= lookValue.y * mouseSensitivity;
+        // lookY -= lookValue.y * mouseSensitivity;
 
         transform.Rotate(0, lookX, 0);
 
-        lookY = Mathf.Clamp(lookY, -90f, 90f);
+        // lookY = Mathf.Clamp(lookY, -90f, 90f);
 
         cameraTransform.localRotation = Quaternion.Euler(lookY, 0, 0);
     }

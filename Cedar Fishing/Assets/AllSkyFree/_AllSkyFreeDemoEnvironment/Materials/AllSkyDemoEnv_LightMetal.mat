@@ -98,6 +98,11 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+<<<<<<< Updated upstream:Cedar Fishing/Assets/BasicToonWaterShader/Material/Pool.mat
+=======
+    - _FishSpeed: 10
+    - _FishStrength: 0.15
+>>>>>>> Stashed changes:Cedar Fishing/Assets/FishSwim/AnchovyMaterial.mat
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1

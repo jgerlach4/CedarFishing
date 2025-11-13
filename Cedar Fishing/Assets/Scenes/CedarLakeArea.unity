@@ -234,6 +234,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+  m_LocalEulerAnglesHint: {x: 0, y: 30.393, z: 0}
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
   m_LocalEulerAnglesHint: {x: 0, y: -7.246, z: 0}
 --- !u!1 &79821158 stripped
 GameObject:
@@ -290,12 +296,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 717088588}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
   - {fileID: 1704323632}
   - {fileID: 700012925}
   - {fileID: 182589637}
   moveSpeed: 40
   rotationSpeed: 5
   waypointReachDistance: 0.5
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &182589636
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,9 +318,12 @@ GameObject:
   - component: {fileID: 186201486}
   m_Layer: 5
   m_Name: Text (TMP)
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
   - component: {fileID: 182589637}
   m_Layer: 0
   m_Name: GameObject (5)
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -319,8 +331,11 @@ GameObject:
   m_IsActive: 1
 --- !u!224 &186201485
 RectTransform:
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
 --- !u!4 &182589637
 Transform:
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -437,14 +452,47 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182589636}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.466, y: 0.00013, z: 4.591}
+=======
+--- !u!1 &248136033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248136034}
+  m_Layer: 0
+  m_Name: GameObject (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &248136034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248136033}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.736, y: 0.00013, z: 1.446}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
   m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 717088588}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &256741997
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,6 +694,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 30.393, z: 0}
+--- !u!1 &299903486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 299903487}
+  m_Layer: 0
+  m_Name: GameObject (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &299903487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299903486}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.682, y: 0.00013, z: 3.221}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &315047891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1298,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2b16f47ed05e8b4f9a6bfd446de77c9, type: 3}
   m_PrefabInstance: {fileID: 1062385203}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!95 &449717891
 Animator:
   serializedVersion: 7
@@ -1431,6 +1515,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511138987}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+--- !u!1 &512020814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 512020815}
+  m_Layer: 0
+  m_Name: GameObject (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &512020815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512020814}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.189, y: 0.00013, z: 1.572}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &517290091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 517290092}
+  m_Layer: 0
+  m_Name: GameObject (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &517290092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517290091}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.437, y: 0.00013, z: -1.496}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &524548220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524548221}
+  m_Layer: 0
+  m_Name: GameObject (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &524548221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524548220}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.766, y: 0.00013, z: 2.635}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &540274515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1723,94 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0.048, z: 0}
+--- !u!1001 &578209199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4749.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1265.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_Name
+      value: FishIshidai
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321002094976050457, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f4ac9ef4aed58f440b6df63437d0a183, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 578209201}
+  m_SourcePrefab: {fileID: 100100000, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+--- !u!1 &578209200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+  m_PrefabInstance: {fileID: 578209199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &578209201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578209200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e5589bd14cce84f8ac45294c692220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishNav
+  waypoints:
+  - {fileID: 248136034}
+  - {fileID: 524548221}
+  - {fileID: 985413673}
+  moveSpeed: 40
+  rotationSpeed: 3
+  waypointReachDistance: 0.5
 --- !u!1 &588819834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1653,6 +1922,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &613844471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 613844472}
+  m_Layer: 0
+  m_Name: GameObject (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &613844472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613844471}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.707, y: 0.00013, z: 2.319}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &628302563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 628302564}
+  m_Layer: 0
+  m_Name: GameObject (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &628302564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628302563}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.723, y: 0.00013, z: -0.801}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &670080263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,6 +2077,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &700012924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,6 +2113,113 @@ Transform:
   m_Children: []
   m_Father: {fileID: 717088588}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+--- !u!1001 &716444289
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4819.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1493.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8424979808727097776, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 608917c0589fcdc4fb6c12998d3d285c, type: 2}
+    - target: {fileID: -2886496714807556418, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1297
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_Name
+      value: FishAntyobi (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 716444291}
+  m_SourcePrefab: {fileID: 100100000, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+--- !u!1 &716444290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+  m_PrefabInstance: {fileID: 716444289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &716444291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716444290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e5589bd14cce84f8ac45294c692220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishNav
+  waypoints:
+  - {fileID: 2117988839}
+  - {fileID: 1689899984}
+  - {fileID: 299903487}
+  moveSpeed: 40
+  rotationSpeed: 5
+  waypointReachDistance: 0.5
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &717088584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,6 +2331,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 700012925}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
   - {fileID: 1704323632}
   - {fileID: 1176406506}
   - {fileID: 130501854}
@@ -1903,6 +2347,139 @@ Transform:
   - {fileID: 930600447}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  - {fileID: 2117988839}
+  - {fileID: 1689899984}
+  - {fileID: 299903487}
+  - {fileID: 248136034}
+  - {fileID: 524548221}
+  - {fileID: 985413673}
+  - {fileID: 613844472}
+  - {fileID: 2087323666}
+  - {fileID: 512020815}
+  - {fileID: 1040477224}
+  - {fileID: 517290092}
+  - {fileID: 628302564}
+  - {fileID: 1880412292}
+  - {fileID: 1704323632}
+  - {fileID: 1176406506}
+  - {fileID: 130501854}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &743405262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743405266}
+  - component: {fileID: 743405265}
+  - component: {fileID: 743405264}
+  - component: {fileID: 743405263}
+  m_Layer: 0
+  m_Name: Patio (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &743405263
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743405262}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &743405264
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743405262}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &743405265
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743405262}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &743405266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743405262}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3413.5, y: 7.800001, z: 1027.8}
+  m_LocalScale: {x: 340.1515, y: 19.070429, z: 340.1515}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &760880074
 GameObject:
   m_ObjectHideFlags: 0
@@ -2547,6 +3124,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &872111298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,6 +3210,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+--- !u!1 &985413672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 985413673}
+  m_Layer: 0
+  m_Name: GameObject (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &985413673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985413672}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.723, y: 0.00013, z: 3.523}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &994308425
 GameObject:
   m_ObjectHideFlags: 0
@@ -2707,6 +3323,121 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1815759512}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+--- !u!1001 &1033016927
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1763547085}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.72
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8424979808727097776, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 608917c0589fcdc4fb6c12998d3d285c, type: 2}
+    - target: {fileID: -2886496714807556418, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1297
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      propertyPath: m_Name
+      value: FishAntyobi (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1752892990}
+  m_SourcePrefab: {fileID: 100100000, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+--- !u!1 &1040477223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1040477224}
+  m_Layer: 0
+  m_Name: GameObject (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1040477224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040477223}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.576, y: 0.00013, z: -1.632}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1001 &1062385203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2729,7 +3460,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2b16f47ed05e8b4f9a6bfd446de77c9, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
       value: 4874
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+      value: 3216
+=======
+      value: 4743
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2b16f47ed05e8b4f9a6bfd446de77c9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2737,7 +3476,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2b16f47ed05e8b4f9a6bfd446de77c9, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
       value: 1344
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+      value: 249
+=======
+      value: 1625
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2b16f47ed05e8b4f9a6bfd446de77c9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3001,6 +3748,99 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+--- !u!1001 &1127700145
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4570.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1421.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_Name
+      value: FishIshidai (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321002094976050457, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f4ac9ef4aed58f440b6df63437d0a183, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1127700147}
+  m_SourcePrefab: {fileID: 100100000, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+--- !u!1 &1127700146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+  m_PrefabInstance: {fileID: 1127700145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1127700147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127700146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e5589bd14cce84f8ac45294c692220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishNav
+  waypoints:
+  - {fileID: 613844472}
+  - {fileID: 2087323666}
+  - {fileID: 512020815}
+  moveSpeed: 40
+  rotationSpeed: 3
+  waypointReachDistance: 0.5
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1176406505
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,6 +3872,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 717088588}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1238306428
 GameObject:
   m_ObjectHideFlags: 0
@@ -3078,9 +3922,9 @@ MonoBehaviour:
   - m_EditModeType: 1
     m_Knots:
     - Position:
-        x: -188.50195
+        x: -289.40186
         y: 0
-        z: 137.15198
+        z: 0.3519287
       TangentIn:
         x: -0
         y: -0
@@ -3096,275 +3940,293 @@ MonoBehaviour:
           z: -0.00000012870495
           w: -0.58388746
     - Position:
-        x: -1086.602
+        x: -893.7019
         y: 0
-        z: -465.448
+        z: -387.84802
       TangentIn:
         x: -0
         y: -0
-        z: -302.3536
+        z: -237.6067
       TangentOut:
         x: 0
         y: 0
-        z: 224.1078
+        z: 238.842
       Rotation:
         value:
-          x: 0.0000000048576445
-          y: 0.9197059
-          z: -0.0000000020736513
-          w: -0.39260787
+          x: 0.000000004802334
+          y: 0.9095091
+          z: -0.0000000021948683
+          w: -0.41568387
     - Position:
-        x: -1438.602
+        x: -1369.502
         y: 0
-        z: -944.148
+        z: -935.848
       TangentIn:
         x: -0
         y: -0
-        z: -169.34846
+        z: -184.07356
       TangentOut:
         x: 0
         y: 0
-        z: 163.6989
+        z: 143.66705
       Rotation:
         value:
-          x: 0.000000008569513
-          y: 0.9982598
-          z: -5.0620846e-10
-          w: -0.058968056
+          x: 0.0000000085396765
+          y: 0.99524134
+          z: -8.360891e-10
+          w: -0.097440496
     - Position:
-        x: -1223.4019
+        x: -1228.502
         y: 0
-        z: -1455.948
+        z: -1354.848
       TangentIn:
         x: -0
         y: -0
-        z: -133.6429
+        z: -106.73521
       TangentOut:
         x: 0
         y: 0
-        z: 85.81608
+        z: 65.40682
       Rotation:
         value:
-          x: -0.000000029719518
-          y: 0.9225931
-          z: -0.000000012426954
-          w: 0.38577417
+          x: -0.000000030535645
+          y: 0.95048964
+          z: -0.000000009983427
+          w: 0.3107563
     - Position:
-        x: -1011.2019
+        x: -1094.502
         y: 0
-        z: -1541.848
+        z: -1452.848
       TangentIn:
         x: -0
         y: -0
-        z: -67.18388
+        z: -54.307533
       TangentOut:
         x: 0
         y: 0
-        z: 58.02221
+        z: 56.079563
       Rotation:
         value:
-          x: -0.000000007984356
-          y: 0.73034227
-          z: -0.000000007467684
-          w: 0.68308145
+          x: -0.000000008974677
+          y: 0.8249683
+          z: -0.000000006148479
+          w: 0.5651791
     - Position:
-        x: -845.802
+        x: -918.50195
         y: 0
-        z: -1499.448
+        z: -1471.848
       TangentIn:
         x: -0
         y: -0
-        z: -56.76687
+        z: -53.500942
       TangentOut:
         x: 0
         y: 0
-        z: 62.558907
+        z: 52.239296
       Rotation:
         value:
-          x: -9.178631e-11
-          y: 0.4821366
-          z: -1.6678597e-10
-          w: 0.87609607
+          x: -1.1188916e-10
+          y: 0.5930204
+          z: -1.5192013e-10
+          w: 0.8051874
     - Position:
-        x: -713.40186
+        x: -790.50195
         y: 0
-        z: -1339.848
+        z: -1361.848
       TangentIn:
         x: -0
         y: -0
-        z: -65.346725
+        z: -56.40979
       TangentOut:
         x: 0
         y: 0
-        z: 63.79622
+        z: 63.573074
       Rotation:
         value:
-          x: -1.3602461e-10
-          y: 0.19754358
-          z: -6.750112e-10
-          w: 0.98029405
+          x: -1.8041274e-10
+          y: 0.262598
+          z: -6.6291894e-10
+          w: 0.96490526
     - Position:
-        x: -693.10205
+        x: -747.50195
         y: 0
-        z: -1143.248
+        z: -1151.848
       TangentIn:
         x: -0
         y: -0
-        z: -66.484695
+        z: -74.02058
       TangentOut:
         x: 0
         y: 0
-        z: 78.34019
+        z: 88.075325
       Rotation:
         value:
-          x: 0.0000000015916521
-          y: 0.23362108
-          z: 0.0000000066244343
-          w: 0.9723277
+          x: 0.000000001711081
+          y: 0.25167972
+          z: 0.0000000065798
+          w: 0.9678106
     - Position:
-        x: -488.7019
+        x: -526.50195
         y: 0
-        z: -960.148
+        z: -943.848
       TangentIn:
         x: -0
         y: -0
-        z: -72.03161
+        z: -78.3883
       TangentOut:
         x: 0
         y: 0
-        z: 56.11827
+        z: 56.020412
       Rotation:
         value:
-          x: 0.000000021831536
-          y: 0.6025398
-          z: 0.000000028916768
-          w: 0.79808885
+          x: 0.000000020281893
+          y: 0.5618514
+          z: 0.00000002986191
+          w: 0.82723814
     - Position:
-        x: -324.70215
+        x: -371.50195
         y: 0
-        z: -989.24805
+        z: -943.848
       TangentIn:
         x: -0
         y: -0
-        z: -57.82447
+        z: -52.857956
       TangentOut:
         x: 0
         y: 0
-        z: 62.935596
+        z: 55.51105
       Rotation:
         value:
-          x: 2.7947117e-10
-          y: 0.75344455
-          z: 2.4388727e-10
-          w: 0.65751153
+          x: 2.6675528e-10
+          y: 0.7255067
+          z: 2.5304386e-10
+          w: 0.6882151
     - Position:
-        x: -128.30176
+        x: -201.50195
         y: 0
-        z: -1008.148
+        z: -961.848
       TangentIn:
         x: -0
         y: -0
-        z: -59.685833
+        z: -51.846916
       TangentOut:
         x: 0
         y: 0
-        z: 61.639236
+        z: 52.30302
       Rotation:
         value:
-          x: 0.000000008914006
-          y: 0.56471676
-          z: 0.000000013027049
-          w: 0.8252847
+          x: 0.000000009114191
+          y: 0.58061635
+          z: 0.0000000127804975
+          w: 0.8141772
     - Position:
-        x: 12.598145
+        x: -76.50195
         y: 0
-        z: -851.848
+        z: -840.848
       TangentIn:
         x: -0
         y: -0
-        z: -65.055145
+        z: -60.214363
       TangentOut:
         x: 0
         y: 0
-        z: 62.174015
+        z: 68.88879
       Rotation:
         value:
-          x: -0.0000000023944484
-          y: 0.20487007
-          z: -0.000000011439739
-          w: 0.9787892
+          x: -0.000000003264412
+          y: 0.28050852
+          z: -0.000000011170253
+          w: 0.9598515
     - Position:
-        x: 30.198242
+        x: -1.5019531
         y: 0
-        z: -660.448
+        z: -625.848
       TangentIn:
         x: -0
         y: -0
-        z: -56.4935
+        z: -73.55614
       TangentOut:
         x: 0
         y: 0
-        z: 58.190155
+        z: 72.749596
       Rotation:
         value:
-          x: 0.0000000129170745
-          y: 0.3000599
-          z: 0.000000041064663
-          w: 0.95392036
+          x: 0.000000011900364
+          y: 0.27736732
+          z: 0.0000000412213
+          w: 0.96076393
     - Position:
-        x: 214.39795
+        x: 156.49805
         y: 0
-        z: -572.948
+        z: -468.84802
       TangentIn:
         x: -0
         y: -0
-        z: -62.040432
+        z: -69.944336
       TangentOut:
         x: 0
         y: 0
-        z: 61.888016
+        z: 67.46591
       Rotation:
         value:
-          x: 0.0000000011193115
-          y: 0.3471723
-          z: 0.0000000030235474
-          w: 0.93780136
+          x: 7.9878804e-10
+          y: 0.24861278
+          z: 0.0000000031121026
+          w: 0.968603
     - Position:
-        x: 272.59814
+        x: 200.99805
         y: 0
-        z: -378.54797
+        z: -266.448
       TangentIn:
         x: -0
         y: -0
-        z: -78.88755
+        z: -63.627533
       TangentOut:
         x: 0
         y: 0
-        z: 131.09442
+        z: 57.825935
       Rotation:
         value:
-          x: 0.0000000026728022
-          y: -0.03717465
-          z: -0.00000007184883
-          w: 0.9993089
+          x: 0.0000000014312151
+          y: -0.020003397
+          z: -0.00000007153428
+          w: 0.9997999
     - Position:
-        x: 34.098145
+        x: 150.99805
         y: 0
-        z: 128.552
+        z: -102.74805
+      TangentIn:
+        x: -0.000014781952
+        y: -2.046363e-12
+        z: -54.786762
+      TangentOut:
+        x: -0.0000011920929
+        y: 2.2737368e-13
+        z: 59.630287
+      Rotation:
+        value:
+          x: 0.00000001626641
+          y: -0.22666337
+          z: -0.000000069896814
+          w: 0.97397316
+    - Position:
+        x: -32.20215
+        y: 0
+        z: 30.651978
       TangentIn:
         x: -0
         y: -0
-        z: -123.43874
+        z: -72.6836
       TangentOut:
         x: 0
         y: 0
-        z: 77.82738
+        z: 77.699165
       Rotation:
         value:
-          x: 0
-          y: -0.47322792
-          z: -0
-          w: 0.88094
+          x: -8.454569e-21
+          y: -0.6110371
+          z: 1.09529424e-20
+          w: 0.791602
     m_MetaData:
     - Mode: 4
       Tension: 0.5
@@ -3396,6 +4258,8 @@ MonoBehaviour:
       Tension: 0.5
     - Mode: 0
       Tension: 0.5
+    - Mode: 4
+      Tension: 0.5
     - Mode: 0
       Tension: 0.5
     m_Closed: 1
@@ -3407,8 +4271,290 @@ MonoBehaviour:
       m_Data: []
     m_ObjectData:
       m_Data: []
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 200.99805
+        y: 0
+        z: -266.448
+      TangentIn:
+        x: -0
+        y: -0
+        z: -11.828954
+      TangentOut:
+        x: 0
+        y: 0
+        z: 11.828954
+      Rotation:
+        value:
+          x: 0.0929632
+          y: 0.43039545
+          z: 0.45333713
+          w: 0.77498585
+    - Position:
+        x: 289.8794
+        y: 29.11557
+        z: -194.02698
+      TangentIn:
+        x: -0
+        y: -0
+        z: -38.621437
+      TangentOut:
+        x: 0
+        y: 0
+        z: 37.835342
+      Rotation:
+        value:
+          x: -0.010295701
+          y: 0.38844183
+          z: 0.15873402
+          w: 0.90764
+    - Position:
+        x: 362.28906
+        y: 33.08249
+        z: -106.68494
+      TangentIn:
+        x: -0
+        y: -0
+        z: -41.68661
+      TangentOut:
+        x: 0
+        y: 0
+        z: 57.001793
+      Rotation:
+        value:
+          x: 0.0767778
+          y: 0.17676733
+          z: 0.40385967
+          w: 0.8942906
+    - Position:
+        x: 380.00098
+        y: 27.873749
+        z: 104.770874
+      TangentIn:
+        x: -0
+        y: -0
+        z: -58.140873
+      TangentOut:
+        x: 0
+        y: 0
+        z: 42.928017
+      Rotation:
+        value:
+          x: -0.031275112
+          y: -0.07974492
+          z: 0.36283657
+          w: 0.92790747
+    - Position:
+        x: 332.1333
+        y: 30.751831
+        z: 210.08093
+      TangentIn:
+        x: -0
+        y: -0
+        z: -32.050117
+      TangentOut:
+        x: 0
+        y: 0
+        z: 25.159298
+      Rotation:
+        value:
+          x: -0.1276673
+          y: -0.34879634
+          z: 0.2883763
+          w: 0.8825425
+    - Position:
+        x: 268.76416
+        y: 32.23526
+        z: 242.74084
+      TangentIn:
+        x: -0
+        y: -0
+        z: -22.663727
+      TangentOut:
+        x: 0
+        y: 0
+        z: 26.990818
+      Rotation:
+        value:
+          x: 0.30755296
+          y: 0.6461313
+          z: -0.30733246
+          w: -0.6272738
+    - Position:
+        x: 181.29932
+        y: 28.124084
+        z: 192.13501
+      TangentIn:
+        x: -0
+        y: -0
+        z: -31.1728
+      TangentOut:
+        x: 0
+        y: 0
+        z: 31.192734
+      Rotation:
+        value:
+          x: 0.15623324
+          y: 0.93353164
+          z: -0.05273259
+          w: -0.3183222
+    - Position:
+        x: 154.52344
+        y: 32.429596
+        z: 94.57141
+      TangentIn:
+        x: -0
+        y: -0
+        z: -31.273642
+      TangentOut:
+        x: 0
+        y: 0
+        z: 32.024498
+      Rotation:
+        value:
+          x: 0.5239289
+          y: 0.84877646
+          z: 0.029923003
+          w: 0.06466574
+    - Position:
+        x: 210.04346
+        y: 24.616028
+        z: 4.3969727
+      TangentIn:
+        x: -0
+        y: -0
+        z: -31.493755
+      TangentOut:
+        x: 0
+        y: 0
+        z: 25.361097
+      Rotation:
+        value:
+          x: 0.41473156
+          y: 0.87700886
+          z: 0.08573777
+          w: 0.22694136
+    - Position:
+        x: 238.48242
+        y: 24.483582
+        z: -58.31201
+      TangentIn:
+        x: -0
+        y: -0
+        z: -18.563934
+      TangentOut:
+        x: 0
+        y: 0
+        z: 15.207113
+      Rotation:
+        value:
+          x: 0.4449289
+          y: 0.89510673
+          z: 0.016755493
+          w: -0.023269176
+    - Position:
+        x: 217.17871
+        y: 28.780396
+        z: -99.08801
+      TangentIn:
+        x: -0
+        y: -0
+        z: -14.903825
+      TangentOut:
+        x: 0
+        y: 0
+        z: 15.293859
+      Rotation:
+        value:
+          x: 0.48934886
+          y: 0.79306406
+          z: -0.21656385
+          w: -0.29101047
+    - Position:
+        x: 176.99805
+        y: 18.8
+        z: -124.64807
+      TangentIn:
+        x: -0
+        y: -0
+        z: -12.602871
+      TangentOut:
+        x: 0
+        y: 0
+        z: 11.261003
+      Rotation:
+        value:
+          x: -0.082045116
+          y: 0.6939726
+          z: -0.22106543
+          w: -0.68029463
+    - Position:
+        x: 150.99805
+        y: 0
+        z: -102.74805
+      TangentIn:
+        x: -0
+        y: -0
+        z: -3.8846507
+      TangentOut:
+        x: 0
+        y: 0
+        z: 3.8846507
+      Rotation:
+        value:
+          x: 0.11563932
+          y: -0.45249155
+          z: 0.32456404
+          w: 0.82251877
+    m_MetaData:
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
   m_Knots:
-    m_KnotsLink: []
+    m_KnotsLink:
+    - Knots:
+      - Spline: 1
+        Knot: 0
+      - Spline: 0
+        Knot: 14
+    - Knots:
+      - Spline: 0
+        Knot: 15
+      - Spline: 1
+        Knot: 12
 --- !u!4 &1238306430
 Transform:
   m_ObjectHideFlags: 0
@@ -3622,7 +4768,7 @@ Transform:
   m_GameObject: {fileID: 1320336451}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.28, y: 4.5699997, z: -13.79}
+  m_LocalPosition: {x: 2.11, y: 3.58, z: -8.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3718,9 +4864,9 @@ MonoBehaviour:
   - m_EditModeType: 1
     m_Knots:
     - Position:
-        x: 39.20459
+        x: 57.104492
         y: 0
-        z: -23.710938
+        z: -40.710938
       TangentIn:
         x: -0
         y: -0
@@ -3736,23 +4882,23 @@ MonoBehaviour:
           z: -0.0000002564346
           w: -0.37785494
     - Position:
-        x: -155.89551
+        x: -131.89551
         y: 0
-        z: -253.71094
+        z: -266.71094
       TangentIn:
         x: -0
         y: -0
-        z: -91.35767
+        z: -90.37261
       TangentOut:
         x: 0
         y: 0
-        z: 80.049866
+        z: 79.17007
       Rotation:
         value:
-          x: -0.000000051590803
-          y: 0.9724944
-          z: -0.00000026622723
-          w: -0.23292573
+          x: -0.000000045046757
+          y: 0.96572644
+          z: -0.0000002715744
+          w: -0.25956216
     - Position:
         x: -210.23096
         y: -0.00024414062
@@ -3760,17 +4906,17 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -78.283936
+        z: -75.53841
       TangentOut:
         x: 0
         y: 0
-        z: 86.49615
+        z: 84.46458
       Rotation:
         value:
-          x: -6.8116596e-10
-          y: 0.99992555
-          z: -0.000000049361173
-          w: 0.0122045865
+          x: 7.1999506e-10
+          y: 0.999855
+          z: -0.00000005694665
+          w: -0.01702976
     - Position:
         x: -130.5664
         y: 0
@@ -3868,35 +5014,35 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -55.16977
+        z: -53.118946
       TangentOut:
         x: 0
         y: 0
-        z: 61.099056
+        z: 57.168617
       Rotation:
         value:
-          x: 0.00000030876197
-          y: 0.22643426
-          z: -0.000000067398695
-          w: 0.97402656
+          x: 0.0000000023416888
+          y: 0.260613
+          z: 0.000000008674807
+          w: 0.9654433
     - Position:
-        x: 762.5083
-        y: -0.00024414062
-        z: -495.82806
+        x: 773.1045
+        y: 0
+        z: -523.71094
       TangentIn:
         x: -0
         y: -0
-        z: -64.96507
+        z: -64.78924
       TangentOut:
         x: 0
         y: 0
-        z: 76.37756
+        z: 76.62287
       Rotation:
         value:
-          x: -0.00000011100984
-          y: 0.57227546
-          z: 0.000000105269535
-          w: 0.8200615
+          x: -0.00000018627804
+          y: 0.5807421
+          z: 0.00000015782555
+          w: 0.81408757
     - Position:
         x: 1039.749
         y: 0.00024414062
@@ -3904,53 +5050,53 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -82.88199
+        z: -77.523285
       TangentOut:
         x: 0
         y: 0
-        z: 67.921425
+        z: 62.83067
       Rotation:
         value:
-          x: 0.0000003867514
-          y: 0.6952395
-          z: -0.00000038481295
-          w: 0.7187782
+          x: 0.00000009212217
+          y: 0.62771046
+          z: -0.000000081290935
+          w: 0.77844685
     - Position:
-        x: 1224.1045
-        y: -0.00048828125
-        z: -493.92157
+        x: 1198.1045
+        y: 0
+        z: -452.71094
       TangentIn:
         x: -0
         y: -0
-        z: -58.026474
+        z: -54.27416
       TangentOut:
         x: 0
         y: 0
-        z: 58.587055
+        z: 49.216816
       Rotation:
         value:
-          x: 0.0000006257479
-          y: 0.4789479
-          z: -0.00000033825307
-          w: 0.8778434
+          x: 0.00000030961942
+          y: 0.44191238
+          z: -0.00000017829792
+          w: 0.89705825
     - Position:
-        x: 1333.1865
-        y: -0.00024414062
-        z: -337.0808
+        x: 1291.1045
+        y: 0
+        z: -342.71094
       TangentIn:
         x: -0
         y: -0
-        z: -57.10515
+        z: -48.12375
       TangentOut:
         x: 0
         y: 0
-        z: 51.10761
+        z: 51.17528
       Rotation:
         value:
-          x: -0.00000033108384
-          y: 0.1435295
-          z: 0.0000000618115
-          w: 0.9896461
+          x: 0.00000039446869
+          y: 0.23103459
+          z: -0.0000000066762325
+          w: 0.9729455
     - Position:
         x: 1328.3535
         y: -0.00024414062
@@ -3958,143 +5104,143 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -45.090115
+        z: -51.532333
       TangentOut:
         x: 0
         y: 0
-        z: 47.530098
+        z: 52.28275
       Rotation:
         value:
-          x: -0.00000040036457
-          y: 0.24807332
-          z: 0.00000011657715
-          w: 0.9687413
+          x: 0.000000012507835
+          y: 0.28220317
+          z: 0.0000000023608822
+          w: 0.95935464
     - Position:
-        x: 1474.501
+        x: 1461.1045
         y: 0
-        z: -97.23486
+        z: -81.71094
       TangentIn:
         x: -0
         y: -0
-        z: -59.065655
+        z: -57.51445
       TangentOut:
         x: 0
         y: 0
-        z: 67.09055
+        z: 63.239384
       Rotation:
         value:
-          x: -0.00000033837628
-          y: 0.4046043
-          z: 0.00000014067164
-          w: 0.9144918
+          x: -0.00000033535642
+          y: 0.35516754
+          z: 0.00000016053471
+          w: 0.9348027
     - Position:
-        x: 1604.0674
+        x: 1565.1045
         y: 0
-        z: 79.78711
+        z: 92.28906
       TangentIn:
         x: -0
         y: -0
-        z: -70.47393
+        z: -65.81385
       TangentOut:
         x: 0
         y: 0
-        z: 75.88205
+        z: 68.3022
       Rotation:
         value:
           x: 0
-          y: 0.12658763
+          y: 0.12063972
           z: 0
-          w: 0.99195546
+          w: 0.9926964
     - Position:
-        x: 1572.581
+        x: 1553.1045
         y: 0
-        z: 332.16382
+        z: 310.28906
       TangentIn:
         x: -0
         y: -0
-        z: -86.026566
+        z: -74.62517
       TangentOut:
         x: 0
         y: 0
-        z: 90.98841
+        z: 83.06694
       Rotation:
         value:
           x: 0
-          y: -0.14209135
+          y: -0.14281483
           z: -0
-          w: 0.98985356
+          w: 0.98974943
     - Position:
-        x: 1449.8057
+        x: 1419.1045
         y: 0
-        z: 588.8286
+        z: 545.28906
       TangentIn:
         x: -0
         y: -0
-        z: -90.90549
+        z: -86.7655
       TangentOut:
         x: 0
         y: 0
-        z: 86.91799
+        z: 84.50161
       Rotation:
         value:
-          x: 0.00000022767226
-          y: -0.31643996
-          z: 0.00000007378292
-          w: 0.9486126
+          x: -0.0000000032306124
+          y: -0.36248398
+          z: 0.000000008306293
+          w: 0.93199
     - Position:
-        x: 1255.8218
-        y: -0.00024414062
-        z: 762.10596
+        x: 1208.1045
+        y: 0
+        z: 691.28906
       TangentIn:
         x: -0
         y: -0
-        z: -81.077515
+        z: -79.56833
       TangentOut:
         x: 0
         y: 0
-        z: 90.45047
+        z: 79.98205
       Rotation:
         value:
-          x: 0.000000041046036
-          y: -0.6140654
-          z: 0.000000031935116
-          w: 0.7892551
+          x: -0.0000000033308571
+          y: -0.6239409
+          z: 0.0000000041718207
+          w: 0.7814715
     - Position:
-        x: 940.7959
+        x: 952.1045
         y: 0
-        z: 687.5836
+        z: 650.28906
       TangentIn:
         x: -0
         y: -0
-        z: -113.78746
+        z: -92.09412
       TangentOut:
         x: 0
         y: 0
-        z: 130.12611
+        z: 108.886856
       Rotation:
         value:
-          x: 0.00000014307382
-          y: 0.82944643
-          z: 0.00000022158679
-          w: -0.5585862
+          x: -0.000000011853505
+          y: 0.81679153
+          z: 0.00000000837261
+          w: -0.5769329
     - Position:
-        x: 577.3677
-        y: 0.00012207031
-        z: 470.43396
+        x: 638.1045
+        y: 0
+        z: 469.28906
       TangentIn:
         x: -0
         y: -0
-        z: -159.41808
+        z: -142.72238
       TangentOut:
         x: 0
         y: 0
-        z: 209.42415
+        z: 208.44547
       Rotation:
         value:
-          x: 0.000000023823997
-          y: 0.893796
-          z: 0.000000022140089
-          w: -0.4484736
+          x: 0.000000009716339
+          y: 0.88949037
+          z: -0.0000000049915303
+          w: -0.4569538
     m_MetaData:
     - Mode: 4
       Tension: 0.5
@@ -4164,6 +5310,99 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+--- !u!1001 &1351198644
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4760.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1480.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: m_Name
+      value: FishIshidai (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5321002094976050457, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f4ac9ef4aed58f440b6df63437d0a183, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1351198646}
+  m_SourcePrefab: {fileID: 100100000, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+--- !u!1 &1351198645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 10ef7e27dcc6e714d89bfef1bba0d8f3, type: 3}
+  m_PrefabInstance: {fileID: 1351198644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1351198646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351198645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e5589bd14cce84f8ac45294c692220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishNav
+  waypoints:
+  - {fileID: 524548221}
+  - {fileID: 613844472}
+  - {fileID: 985413673}
+  moveSpeed: 40
+  rotationSpeed: 3
+  waypointReachDistance: 0.5
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1362784482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,6 +5532,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1415062418
 GameObject:
   m_ObjectHideFlags: 0
@@ -4497,6 +5740,100 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90.559, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+--- !u!1001 &1434678487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4383
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 853.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5307580933442120053, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2e0ae62fd027bb94f9857087452cb7e8, type: 2}
+    - target: {fileID: 919132149155446097, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      propertyPath: m_Name
+      value: FishTanago
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1434678489}
+  m_SourcePrefab: {fileID: 100100000, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+--- !u!1 &1434678488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9c6f77850c2293f4ea3b6bebdef92312, type: 3}
+  m_PrefabInstance: {fileID: 1434678487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1434678489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434678488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e5589bd14cce84f8ac45294c692220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishNav
+  waypoints:
+  - {fileID: 628302564}
+  - {fileID: 1040477224}
+  - {fileID: 517290092}
+  - {fileID: 1880412292}
+  moveSpeed: 35
+  rotationSpeed: 3
+  waypointReachDistance: 0.5
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!4 &1475532644 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d65ec84bc1fa10d498d9aee5d39c90d5, type: 3}
@@ -4541,6 +5878,10 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1559470661
 GameObject:
   m_ObjectHideFlags: 0
@@ -4652,6 +5993,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1582825738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 15.56163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.8860817
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.8066038
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381145782845820622, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_Name
+      value: MainFountain
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.845234
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.845234
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.845234
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4344
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1157
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
 --- !u!1 &1603180551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4763,6 +6201,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 55.183, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1628577597
 GameObject:
   m_ObjectHideFlags: 0
@@ -4920,6 +6363,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+--- !u!1 &1689899983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1689899984}
+  m_Layer: 0
+  m_Name: GameObject (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1689899984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689899983}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.497, y: 0.00013, z: 4.634}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1704323631
 GameObject:
   m_ObjectHideFlags: 0
@@ -4951,6 +6428,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 717088588}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1722656109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5057,12 +6538,56 @@ Transform:
   m_GameObject: {fileID: 1722656109}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
   m_LocalPosition: {x: 4055, y: 20, z: 1019}
   m_LocalScale: {x: 182.78117, y: 182.78117, z: 182.78117}
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+  m_LocalPosition: {x: 3978, y: 20, z: 987}
+  m_LocalScale: {x: 165.24834, y: 165.24834, z: 165.24834}
+=======
+  m_LocalPosition: {x: 4055, y: 16, z: 1019}
+  m_LocalScale: {x: 182.78117, y: 182.78117, z: 182.78117}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+--- !u!1 &1752892988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+  m_PrefabInstance: {fileID: 1033016927}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1752892989 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+  m_PrefabInstance: {fileID: 1033016927}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1752892990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752892988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e5589bd14cce84f8ac45294c692220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FishNav
+  waypoints:
+  - {fileID: 700012925}
+  - {fileID: 1704323632}
+  - {fileID: 1176406506}
+  moveSpeed: 40
+  rotationSpeed: 5
+  waypointReachDistance: 0.5
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1001 &1754153497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5085,6 +6610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d65ec84bc1fa10d498d9aee5d39c90d5, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
       value: -0.923
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d65ec84bc1fa10d498d9aee5d39c90d5, type: 3}
@@ -5094,6 +6620,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d65ec84bc1fa10d498d9aee5d39c90d5, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.074
+=======
+      value: -0.876
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d65ec84bc1fa10d498d9aee5d39c90d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.173
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d65ec84bc1fa10d498d9aee5d39c90d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.068
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d65ec84bc1fa10d498d9aee5d39c90d5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5286,7 +6823,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
       value: 4761.5
+=======
+      value: 4765.45
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5294,7 +6835,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
       value: 1786
+=======
+      value: 1785.83
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5338,7 +6883,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
     m_AddedGameObjects: []
+=======
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1752892989}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       insertIndex: -1
@@ -5368,6 +6920,14 @@ MonoBehaviour:
   moveSpeed: 40
   rotationSpeed: 5
   waypointReachDistance: 0.5
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+--- !u!4 &1763547085 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
+  m_PrefabInstance: {fileID: 1763547081}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1815759511
 GameObject:
   m_ObjectHideFlags: 0
@@ -5405,6 +6965,141 @@ RectTransform:
   m_AnchoredPosition: {x: 22.740099, y: 0.01673707}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+--- !u!1001 &1842787094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 15.46742
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 15.56163
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.88873154
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.81768423
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840904268080514525, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5381145782845820622, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_Name
+      value: SmallFountain
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.1045
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.1045
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.1045
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4847.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1732.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027926798670278344, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 77c5a3e447b1f0443b9b2241f6ef3924, type: 3}
+--- !u!1 &1880412291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1880412292}
+  m_Layer: 0
+  m_Name: GameObject (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1880412292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880412291}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.235, y: 0.00013, z: -1.091}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1903250970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5541,6 +7236,10 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903250970}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
 --- !u!1 &1908153300
 GameObject:
   m_ObjectHideFlags: 0
@@ -5552,7 +7251,7 @@ GameObject:
   - component: {fileID: 1908153304}
   - component: {fileID: 1908153303}
   - component: {fileID: 1908153302}
-  - component: {fileID: 1908153301}
+  - component: {fileID: 1908153305}
   m_Layer: 0
   m_Name: Patio
   m_TagString: Untagged
@@ -5560,29 +7259,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &1908153301
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908153300}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &1908153302
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5648,12 +7324,34 @@ Transform:
   m_GameObject: {fileID: 1908153300}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3413.5, y: 22.999998, z: 1027.8}
-  m_LocalScale: {x: 261.09384, y: 7.5, z: 261.09384}
+  m_LocalPosition: {x: 3413.5, y: 18.1, z: 1027.8}
+  m_LocalScale: {x: 298.0125, y: 16.707928, z: 298.0125}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1908153305
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908153300}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2010240169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5764,6 +7462,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2087323665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2087323666}
+  m_Layer: 0
+  m_Name: GameObject (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087323666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087323665}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.619, y: 0.00013, z: 1.883}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113545622
 GameObject:
@@ -5892,6 +7621,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &2117988838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2117988839}
+  m_Layer: 0
+  m_Name: GameObject (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2117988839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117988838}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.096, y: 0.00013, z: 2.651}
+  m_LocalScale: {x: 0.0055790236, y: 0.0055790236, z: 0.0055790236}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -5909,6 +7669,7 @@ SceneRoots:
   - {fileID: 1603180555}
   - {fileID: 1422262471}
   - {fileID: 1908153304}
+  - {fileID: 743405266}
   - {fileID: 803373067}
   - {fileID: 406713754}
   - {fileID: 2010240173}
@@ -5925,10 +7686,29 @@ SceneRoots:
   - {fileID: 1339104763}
   - {fileID: 1106117098}
   - {fileID: 1722656113}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
   - {fileID: 1362784484}
   - {fileID: 450837187}
   - {fileID: 1763547081}
+=======
+<<<<<<< Updated upstream:Cedar Fishing/Assets/CedarLakeArea.unity
+=======
+  - {fileID: 1362784484}
+  - {fileID: 450837187}
+  - {fileID: 1763547081}
+  - {fileID: 716444289}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
   - {fileID: 823363789}
   - {fileID: 1815759512}
   - {fileID: 717088588}
   - {fileID: 1628577600}
+<<<<<<< Updated upstream:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+=======
+  - {fileID: 1842787094}
+  - {fileID: 1582825738}
+  - {fileID: 578209199}
+  - {fileID: 1351198644}
+  - {fileID: 1127700145}
+  - {fileID: 1434678487}
+>>>>>>> Stashed changes:Cedar Fishing/Assets/Scenes/CedarLakeArea.unity
+>>>>>>> Stashed changes:Cedar Fishing/Assets/CedarLakeArea.unity
