@@ -55,6 +55,9 @@ public class Example : MonoBehaviour
         bool castPressed = Input.GetKey(KeyCode.E);
         bool isCasting = animator.GetBool("isCasting");
 
+        bool backwardPressed = Input.GetKey(KeyCode.S);
+        bool isBackwards = animator.GetBool("backwards");
+
 
         // your movement code here
 
@@ -70,6 +73,16 @@ public class Example : MonoBehaviour
         if (isWalking && !forwardPressed)
         {
             animator.SetBool("isWalking", false);
+        }
+
+        //walking backwards
+        if (!isBackwards && backwardPressed)
+        {
+            animator.SetBool("backwards", true);
+        }
+        if (isBackwards && !backwardPressed)
+        {
+            animator.SetBool("backwards", false);
         }
 
         // running
