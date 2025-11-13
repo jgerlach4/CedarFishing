@@ -253,12 +253,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FishNav
   waypoints:
-  - {fileID: 1704323632}
+  - {fileID: 1176406506}
+  - {fileID: 130501854}
   - {fileID: 700012925}
-  - {fileID: 0}
   moveSpeed: 40
   rotationSpeed: 5
   waypointReachDistance: 0.5
+--- !u!1 &130501853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 130501854}
+  m_Layer: 0
+  m_Name: GameObject (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &130501854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130501853}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.259, y: -0.003, z: 4.715}
+  m_LocalScale: {x: 1.1127383, y: 1.1127383, z: 1.1127383}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717088588}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182589636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1840,6 +1871,7 @@ Transform:
   - {fileID: 700012925}
   - {fileID: 1704323632}
   - {fileID: 1176406506}
+  - {fileID: 130501854}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &760880074
@@ -2207,7 +2239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4882.3
+      value: 4917.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2215,7 +2247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1521.4
+      value: 1726.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2259,7 +2291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5225,7 +5257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4923
+      value: 4761.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5233,7 +5265,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1689.2
+      value: 1786
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 004bd0096afbd0f4b8e2ff96b4e5ff34, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5301,9 +5333,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FishNav
   waypoints:
-  - {fileID: 1176406506}
-  - {fileID: 1704323632}
   - {fileID: 700012925}
+  - {fileID: 1704323632}
+  - {fileID: 1176406506}
   moveSpeed: 40
   rotationSpeed: 5
   waypointReachDistance: 0.5
