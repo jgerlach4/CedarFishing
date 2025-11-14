@@ -24,8 +24,8 @@ public class PauseMenu : MonoBehaviour
         //Cursor.visible = false;
     }
 
-    /*public void JournalButton()
+    public void JournalButton()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("JournalScene");
-    }*/
+        UnityEngine.SceneManagement.SceneManager.LoadScene("FishCollectionScene");
+    }
 }
