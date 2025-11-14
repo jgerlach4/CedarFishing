@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DaceMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 5307a50cf62a0724fbfe277393952676, type: 3}
+  m_Name: CarpMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: b50603681cf6563469e5ce30c975b41a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -64,8 +64,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_5bb1307f990f480a9b1e251c71752072_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 74a50bea1f8dba84b8da2a514b01db4c, type: 3}
+    - _SampleTexture2D_4602bcb2e8264399aaf62e3b1064c6a2_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 70f5fc39c671ed142bd801f5a5d8f2e6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_e27f580191de40c78a1c2d6f7ddbb40a_Texture_1_Texture2D:
@@ -105,9 +105,9 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FishPeriod: 0.25
-    - _FishSpeed: 5
-    - _FishStrength: 0.75
+    - _FishPeriod: 0.75
+    - _FishSpeed: 6
+    - _FishStrength: 0.25
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -133,7 +133,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &4971741101632939446
+--- !u!114 &2276496207752633376
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
