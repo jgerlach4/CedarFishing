@@ -38,7 +38,7 @@ public class Look : MonoBehaviour
 
         transform.Rotate(0, lookX, 0);
 
-        //lookY = Mathf.Clamp(lookY, -90f, 90f);
+        //lookY = Mathf.Clamp(lookY, -10f, 10f);
 
         cameraTransform.localRotation = Quaternion.Euler(lookY, 0, 0);
     }
