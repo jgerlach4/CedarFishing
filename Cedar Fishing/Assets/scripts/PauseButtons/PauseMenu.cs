@@ -12,7 +12,6 @@ public class PauseMenu : MonoBehaviour
             container.SetActive(true);
             Time.timeScale = 0; // pause the game
             Cursor.lockState = CursorLockMode.None;
-            //Cursor.visible = true;
         }
     }
 
@@ -26,6 +25,10 @@ public class PauseMenu : MonoBehaviour
 
     public void JournalButton()
     {
+        /*container.SetActive(false);
+        Time.timeScale = 1; // resume the game*/
+        Cursor.lockState = CursorLockMode.None;
+
         UnityEngine.SceneManagement.SceneManager.LoadScene("FishCollectionScene");
     }
 }
