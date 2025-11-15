@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class Cast : MonoBehaviour
 {
@@ -43,7 +44,8 @@ public class Cast : MonoBehaviour
         {
             move.enabled = false;
             bobberGuide.transform.position = this.transform.position;
-            bobberGuide.transform.position -= new Vector3(0, 1, 0);
+            bobber.transform.position -= new Vector3(0, 1, 0);
+            //bobberGuide.transform.position = new Vector3(bobberGuide.transform.position.x, 16, bobberGuide.transform.position.z);
 
             bobberGuide.SetActive(true);
         }

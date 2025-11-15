@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Subsystems;
+using System;
 
 public class fishOn : MonoBehaviour
 {
@@ -12,7 +13,16 @@ public class fishOn : MonoBehaviour
 
     public GameObject line;
     public GameObject bobber;
-    public GameObject fish;
+
+    //public Camera mainCamera;
+    //public Camera catchCamera;
+
+    Animator animator;
+
+    public GameObject testFish;
+    public GameObject testFish2;
+
+    private GameObject fish;
 
     private int clickCount = 0;
     private int clickThreshold = 5;
@@ -30,6 +40,8 @@ public class fishOn : MonoBehaviour
         move = GetComponent<Example>();
         fishScript = GetComponent<fishOn>();
 
+        animator = GetComponent<Animator>();    
+
         click = InputSystem.actions.FindAction("Attack");
 
     }
@@ -37,6 +49,7 @@ public class fishOn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //Checks if casting is enabled, if so tuen it off
         //Also wait untill the delay has happened, then then the fish appears
         if (cast.enabled == true)
@@ -44,8 +57,23 @@ public class fishOn : MonoBehaviour
             timer += Time.deltaTime;
             if (timer > delay)
             {
+
+                System.Random random = new System.Random();
+                int number = random.Next(1, 3);
+
+                if (number == 1)
+                {
+                    fish = testFish;
+                }
+                if (number == 2)
+                {
+                    fish = testFish2;
+                }
+
                 cast.enabled = false;
                 fish.transform.position = bobber.transform.position;
+
+                fish.transform.LookAt(this.transform);
 
                 fish.SetActive(true);
             }
@@ -62,6 +90,8 @@ public class fishOn : MonoBehaviour
             }
             if (clickCount == clickThreshold)
             {
+                animator.SetBool("isCasting", false);
+
                 clickCount = 0;
                 timer = 0;
 
@@ -74,6 +104,8 @@ public class fishOn : MonoBehaviour
                 move.enabled = true;
                 cast.enabled = true;
                 fishScript.enabled = false;
+
+
             }
 
         }
