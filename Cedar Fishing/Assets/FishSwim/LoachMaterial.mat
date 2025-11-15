@@ -118,8 +118,9 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _FishPeriod: 0.25
     - _FishSpeed: 5
-    - _FishStrength: 0.1
+    - _FishStrength: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0

@@ -34,11 +34,11 @@ public class Look : MonoBehaviour
         Vector2 lookValue = lookAction.ReadValue<Vector2>();
 
         lookX = lookValue.x * mouseSensitivity;
-        //lookY -= lookValue.y * mouseSensitivity;
+        lookY -= lookValue.y * mouseSensitivity;
 
         transform.Rotate(0, lookX, 0);
 
-        //lookY = Mathf.Clamp(lookY, -10f, 10f);
+        lookY = Mathf.Clamp(lookY, -5f, 5f);
 
         cameraTransform.localRotation = Quaternion.Euler(lookY, 0, 0);
     }

@@ -7,11 +7,12 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             container.SetActive(true);
             Time.timeScale = 0; // pause the game
             Cursor.lockState = CursorLockMode.None;
+            UnityEngine.Cursor.visible = true;
         }
     }
 
