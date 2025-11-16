@@ -19,8 +19,26 @@ public class fishOn : MonoBehaviour
 
     Animator animator;
 
-    public GameObject testFish;
-    public GameObject testFish2;
+    public GameObject Anchovy;
+    public GameObject BarredKnifeJaw;
+    public GameObject Bitterling;
+    public GameObject BlackBass;
+    public GameObject BlueGill;
+    public GameObject Carp;
+    public GameObject CrucianCarp;
+    public GameObject Dace;
+    public GameObject FreshWaterGoby;
+    public GameObject HorseMackeral;
+    public GameObject Koi;
+    public GameObject Loach;
+    public GameObject OarFish;
+    public GameObject OliveFlounder;
+    public GameObject PaleChub;
+    public GameObject PondSmelt;
+    public GameObject RedSnapper;
+    public GameObject Salmon;
+    public GameObject SeaBass;
+    public GameObject YellowPerch;
 
     private GameObject fish;
 
@@ -59,15 +77,87 @@ public class fishOn : MonoBehaviour
             {
 
                 System.Random random = new System.Random();
-                int number = random.Next(1, 3);
+                int number = random.Next(1, 21);
 
                 if (number == 1)
                 {
-                    fish = testFish;
+                    fish = Anchovy;
                 }
                 if (number == 2)
                 {
-                    fish = testFish2;
+                    fish = BarredKnifeJaw;
+                }
+                if (number == 3)
+                {
+                    fish = Bitterling;
+                }
+                if (number == 4)
+                {
+                    fish = BlackBass;
+                }
+                if (number == 5)
+                {
+                    fish = BlueGill;
+                }
+                if (number == 6)
+                {
+                    fish = Carp;
+                }
+                if (number == 7)
+                {
+                    fish = CrucianCarp;
+                }
+                if (number == 8)
+                {
+                    fish = Dace;
+                }
+                if (number == 9)
+                {
+                    fish = FreshWaterGoby;
+                }
+                if (number == 10)
+                {
+                    fish = HorseMackeral;
+                }
+                if (number == 11)
+                {
+                    fish = Koi;
+                }
+                if (number == 12)
+                {
+                    fish = Loach;
+                }
+                if (number == 13)
+                {
+                    fish = OarFish;
+                }
+                if (number == 14)
+                {
+                    fish = OliveFlounder;
+                }
+                if (number == 15)
+                {
+                    fish = PaleChub;
+                }
+                if (number == 16)
+                {
+                    fish = PondSmelt;
+                }
+                if (number == 17)
+                {
+                    fish = RedSnapper;
+                }
+                if (number == 18)
+                {
+                    fish = Salmon;
+                }
+                if (number == 19)
+                {
+                    fish = SeaBass;
+                }
+                if (number == 20)
+                {
+                    fish = YellowPerch;
                 }
 
                 cast.enabled = false;
