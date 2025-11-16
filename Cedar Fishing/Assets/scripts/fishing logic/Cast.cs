@@ -44,8 +44,8 @@ public class Cast : MonoBehaviour
         {
             move.enabled = false;
             bobberGuide.transform.position = this.transform.position;
-            bobber.transform.position -= new Vector3(0, 1, 0);
-            //bobberGuide.transform.position = new Vector3(bobberGuide.transform.position.x, 16, bobberGuide.transform.position.z);
+            //bobber.transform.position -= new Vector3(0, 1, 0);
+            bobberGuide.transform.position = new Vector3(bobberGuide.transform.position.x, 16, bobberGuide.transform.position.z);
 
             bobberGuide.SetActive(true);
         }
@@ -62,7 +62,16 @@ public class Cast : MonoBehaviour
             Vector3 movement = (transform.right * movementX + transform.forward * movementY).normalized;
             Vector3 targetVelocity = movement * bobberSpeed;
 
-            bobberGuide.transform.position += targetVelocity;
+            float distance = Vector3.Distance(this.transform.position, bobberGuide.transform.position);
+
+            if (distance < 150) 
+            {
+                bobberGuide.transform.position += targetVelocity;
+            }
+            if (distance > 150)
+            {
+                bobberGuide.transform.position = Vector3.MoveTowards(bobberGuide.transform.position, this.transform.position, 1);
+            }
 
             // Actual cast of the bobber with a left click of the mouse
             // The bobber will go to where the bobber guide is
