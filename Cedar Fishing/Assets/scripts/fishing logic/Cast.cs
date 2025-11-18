@@ -37,6 +37,7 @@ public class Cast : MonoBehaviour
         animator = GetComponent<Animator>();
 
         rb = GetComponent<Rigidbody>();
+
         bobberGuiderb = bobberGuide.GetComponent<Rigidbody>();
         bobberGuiderb.freezeRotation = true;
 
@@ -52,6 +53,7 @@ public class Cast : MonoBehaviour
             move.enabled = false;
 
             rb.linearVelocity = new Vector3(0, 0, 0);
+
             animator.SetBool("isWalking", false);
             animator.SetBool("backwards", false);
             animator.SetBool("isRunning", false);
@@ -73,7 +75,7 @@ public class Cast : MonoBehaviour
             movementY = moveValue.y;
 
             Vector3 movement = (transform.right * movementX + transform.forward * movementY).normalized;
-            Vector3 targetVelocity = movement * 100;
+            Vector3 targetVelocity = movement * 50;
 
             //float distance = Vector3.Distance(this.transform.position, bobberGuide.transform.position);
 
