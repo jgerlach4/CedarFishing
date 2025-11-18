@@ -21,6 +21,9 @@ public class Cast : MonoBehaviour
 
     Animator animator;
 
+    Rigidbody rb;
+    Rigidbody bobberGuiderb;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -33,6 +36,10 @@ public class Cast : MonoBehaviour
 
         animator = GetComponent<Animator>();
 
+        rb = GetComponent<Rigidbody>();
+        bobberGuiderb = bobberGuide.GetComponent<Rigidbody>();
+        bobberGuiderb.freezeRotation = true;
+
     }
 
     // Update is called once per frame
@@ -43,9 +50,15 @@ public class Cast : MonoBehaviour
         if (interactAction.triggered)
         {
             move.enabled = false;
+
+            rb.linearVelocity = new Vector3(0, 0, 0);
+            animator.SetBool("isWalking", false);
+            animator.SetBool("backwards", false);
+            animator.SetBool("isRunning", false);
+
             bobberGuide.transform.position = this.transform.position;
-            //bobber.transform.position -= new Vector3(0, 1, 0);
-            bobberGuide.transform.position = new Vector3(bobberGuide.transform.position.x, 16, bobberGuide.transform.position.z);
+            bobberGuide.transform.position += new Vector3(0, 10, 0);
+            //bobberGuide.transform.position = new Vector3(bobberGuide.transform.position.x, 16, bobberGuide.transform.position.z);
 
             bobberGuide.SetActive(true);
         }
@@ -60,18 +73,39 @@ public class Cast : MonoBehaviour
             movementY = moveValue.y;
 
             Vector3 movement = (transform.right * movementX + transform.forward * movementY).normalized;
-            Vector3 targetVelocity = movement * bobberSpeed;
+            Vector3 targetVelocity = movement * 100;
+
+            //float distance = Vector3.Distance(this.transform.position, bobberGuide.transform.position);
+
+            //if (distance < 150) 
+            //{
+            //    bobberGuide.transform.position += targetVelocity;
+            //}
+            //if (distance > 150)
+            //{
+            //    bobberGuide.transform.position = Vector3.MoveTowards(bobberGuide.transform.position, this.transform.position, 1);
+            //}
+
+            // Apply movement to the Rigidbody
+            Vector3 velocity = bobberGuiderb.linearVelocity;
+            velocity.x = targetVelocity.x;
+            velocity.z = targetVelocity.z;
 
             float distance = Vector3.Distance(this.transform.position, bobberGuide.transform.position);
 
-            if (distance < 150) 
+            if (distance < 150)
             {
-                bobberGuide.transform.position += targetVelocity;
+                bobberGuiderb.linearVelocity = velocity;
             }
             if (distance > 150)
             {
                 bobberGuide.transform.position = Vector3.MoveTowards(bobberGuide.transform.position, this.transform.position, 1);
             }
+
+            Vector3 gravity = new Vector3(0, -100, 0);
+            bobberGuiderb.AddForce(gravity);
+
+
 
             // Actual cast of the bobber with a left click of the mouse
             // The bobber will go to where the bobber guide is
