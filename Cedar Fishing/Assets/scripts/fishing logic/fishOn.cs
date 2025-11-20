@@ -6,7 +6,6 @@ using System;
 
 public class fishOn : MonoBehaviour
 {
-
     private MonoBehaviour cast;
     private MonoBehaviour move;
     private MonoBehaviour fishScript;
@@ -46,6 +45,7 @@ public class fishOn : MonoBehaviour
     private int clickThreshold = 5;
 
     InputAction click;
+    InputAction rightClick;
 
     //delay
     public float delay = 3;
@@ -61,6 +61,7 @@ public class fishOn : MonoBehaviour
         animator = GetComponent<Animator>();    
 
         click = InputSystem.actions.FindAction("Attack");
+        rightClick = InputSystem.actions.FindAction("RightClick");
 
     }
 
@@ -68,9 +69,9 @@ public class fishOn : MonoBehaviour
     void Update()
     {
 
-        //Checks if casting is enabled, if so tuen it off
+        //Checks if casting is enabled, if so then it off
         //Also wait untill the delay has happened, then then the fish appears
-        if (cast.enabled == true)
+        if (cast.enabled == true && move.enabled == false)
         {
             timer += Time.deltaTime;
             if (timer > delay)
@@ -167,11 +168,25 @@ public class fishOn : MonoBehaviour
 
                 fish.SetActive(true);
             }
+
+            if (click.triggered)
+            {
+                Debug.Log("fish got away");
+
+                move.enabled = true;
+                fishScript.enabled = false;
+
+                animator.SetBool("isCasting", false);
+                bobber.SetActive(false);
+                line.SetActive(false);
+
+            }
+
         }
 
         //If casting is turned off, then we have entered fish on mode
         //Use left click on the mouse, if you click as many times as the threshold, you catch the fish
-        if (cast.enabled == false)
+        if (cast.enabled == false && move.enabled == false)
         {
             fish.transform.position = bobber.transform.position;
             if (click.triggered)

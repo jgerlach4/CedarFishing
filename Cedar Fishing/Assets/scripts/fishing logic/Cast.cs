@@ -7,6 +7,7 @@ public class Cast : MonoBehaviour
     InputAction interactAction;
     InputAction moveAction;
     InputAction click;
+    InputAction rightClick;
 
     private float movementX;
     private float movementY;
@@ -17,7 +18,6 @@ public class Cast : MonoBehaviour
     public GameObject bobberGuide;
     public GameObject bobber;
     public GameObject Line;
-    public float bobberSpeed = (float)0.2;
 
     Animator animator;
 
@@ -30,6 +30,7 @@ public class Cast : MonoBehaviour
         interactAction = InputSystem.actions.FindAction("Interact");
         moveAction = InputSystem.actions.FindAction("Move");
         click = InputSystem.actions.FindAction("Attack");
+        rightClick = InputSystem.actions.FindAction("RightClick");
 
         move = GetComponent<Example>();
         fishOn = GetComponent<fishOn>();
@@ -69,6 +70,9 @@ public class Cast : MonoBehaviour
         // If it is, then you are able to move the bobber guide with WASD
         if (move.enabled == false)
         {
+
+
+
             Vector2 moveValue = moveAction.ReadValue<Vector2>();
 
             movementX = moveValue.x;
@@ -76,17 +80,6 @@ public class Cast : MonoBehaviour
 
             Vector3 movement = (transform.right * movementX + transform.forward * movementY).normalized;
             Vector3 targetVelocity = movement * 50;
-
-            //float distance = Vector3.Distance(this.transform.position, bobberGuide.transform.position);
-
-            //if (distance < 150) 
-            //{
-            //    bobberGuide.transform.position += targetVelocity;
-            //}
-            //if (distance > 150)
-            //{
-            //    bobberGuide.transform.position = Vector3.MoveTowards(bobberGuide.transform.position, this.transform.position, 1);
-            //}
 
             // Apply movement to the Rigidbody
             Vector3 velocity = bobberGuiderb.linearVelocity;
@@ -111,10 +104,16 @@ public class Cast : MonoBehaviour
 
             // Actual cast of the bobber with a left click of the mouse
             // The bobber will go to where the bobber guide is
-            if (click.triggered)
+            if (click.triggered && fishOn.enabled == false)
             {
                 animator.SetBool("isCasting", true);
                 Invoke("renderLine", 2.2f);
+            }
+
+            if (rightClick.triggered)
+            {
+                move.enabled = true;
+                bobberGuide.SetActive(false);
             }
 
 
