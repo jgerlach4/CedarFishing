@@ -58,6 +58,14 @@ public class Example : MonoBehaviour
         bool backwardPressed = Input.GetKey(KeyCode.S);
         bool isBackwards = animator.GetBool("backwards");
 
+        bool leftPressed = Input.GetKey(KeyCode.A);
+        bool isWalkingLeft = animator.GetBool("isWalkingLeft");
+        bool isRunningLeft = animator.GetBool("isRunningLeft");
+
+        bool rightPressed = Input.GetKey(KeyCode.D);
+        bool isWalkingRight = animator.GetBool("isWalkingRight");
+        bool isRunningRight = animator.GetBool("isRunningRight");
+
 
         // your movement code here
 
@@ -97,16 +105,46 @@ public class Example : MonoBehaviour
             running = false;
         }
 
-        //casting
-        //if (!forwardPressed && !runningPressed && castPressed)
-        //{
-        //    animator.SetBool("isCasting", true);
-        //}
-        //if (!castPressed || forwardPressed || runningPressed)
-        //{
-        //    animator.SetBool("isCasting", false);
-        //}
+        // walking left
+        if (!isWalkingLeft && leftPressed)
+        {
+            animator.SetBool("isWalkingLeft", true);
+        }
+        if (isWalkingLeft && !leftPressed)
+        {
+            animator.SetBool("isWalkingLeft", false);
+        }
 
+        // walking right
+        if (!isWalkingRight && rightPressed)
+        {
+            animator.SetBool("isWalkingRight", true);
+        }
+        if (isWalkingRight && !rightPressed)
+        {
+            animator.SetBool("isWalkingRight", false);
+        }
+
+        // running left
+        if (leftPressed && runningPressed)
+        {
+            animator.SetBool("isRunningLeft", true);
+        }
+
+        if (!leftPressed || !runningPressed)
+        {
+            animator.SetBool("isRunningLeft", false);
+        }
+
+        // running right
+        if (rightPressed && runningPressed)
+        {
+            animator.SetBool("isRunningRight", true);
+        }
+        if (!rightPressed || !runningPressed)
+        {
+            animator.SetBool("isRunningRight", false);
+        }
     }
 
     void FixedUpdate()
