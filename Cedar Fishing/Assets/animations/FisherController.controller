@@ -346,30 +346,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: isWalkingLeft
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: isWalkingRight
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: isRunningRight
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: isRunningLeft
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: New Layer
@@ -395,8 +371,6 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5083050971771900673}
-  - {fileID: 4631254308644278012}
-  - {fileID: 4246141926247901613}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -461,25 +435,13 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -6732336485801061744}
     m_Position: {x: 115.80823, y: 309.6536, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 9085446145839218303}
-    m_Position: {x: 70, y: 40, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 4529429408967117564}
-    m_Position: {x: 280, y: 40, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5232061795440637990}
-    m_Position: {x: 640, y: -150, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 6162782364237638284}
-    m_Position: {x: 340, y: -150, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -110, y: 20, z: 0}
-  m_EntryPosition: {x: -110, y: 130, z: 0}
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 7266080361188296621}
@@ -653,8 +615,6 @@ AnimatorState:
   - {fileID: -7002932041816375442}
   - {fileID: 8702363496660627158}
   - {fileID: -3267180387606375162}
-  - {fileID: 9097071676531225188}
-  - {fileID: -3925616441953559756}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
