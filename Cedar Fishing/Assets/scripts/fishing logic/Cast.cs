@@ -104,7 +104,7 @@ public class Cast : MonoBehaviour
 
             // Actual cast of the bobber with a left click of the mouse
             // The bobber will go to where the bobber guide is
-            if (click.triggered && fishOn.enabled == false)
+            if (click.triggered && fishOn.enabled == false && animator.GetBool("isCasting") == false)
             {
                 animator.SetBool("isCasting", true);
                 Invoke("renderLine", 2.2f);
@@ -114,6 +114,15 @@ public class Cast : MonoBehaviour
             {
                 move.enabled = true;
                 bobberGuide.SetActive(false);
+
+                animator.SetBool("isCasting", false);
+
+                Line.SetActive(false);
+                bobber.SetActive(false);
+
+                fishOn.enabled = false;
+
+                CancelInvoke("renderLine");
             }
 
 
