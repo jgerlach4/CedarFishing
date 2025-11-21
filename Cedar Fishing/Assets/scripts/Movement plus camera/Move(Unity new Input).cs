@@ -61,10 +61,12 @@ public class Example : MonoBehaviour
         bool leftPressed = Input.GetKey(KeyCode.A);
         bool isWalkingLeft = animator.GetBool("isWalkingLeft");
         bool isRunningLeft = animator.GetBool("isRunningLeft");
+        bool walkingLeft = animator.GetBool("walkingLeft");
 
         bool rightPressed = Input.GetKey(KeyCode.D);
         bool isWalkingRight = animator.GetBool("isWalkingRight");
         bool isRunningRight = animator.GetBool("isRunningRight");
+        bool walkingRight = animator.GetBool("walkingRight");
 
 
         // your movement code here
@@ -144,6 +146,26 @@ public class Example : MonoBehaviour
         if (!rightPressed || !runningPressed)
         {
             animator.SetBool("isRunningRight", false);
+        }
+
+        // walking then going left
+        if (isWalking && leftPressed)
+        {
+            animator.SetBool("walkingLeft", true);
+        }
+        if (!isWalking || !leftPressed)
+        {
+            animator.SetBool("walkingLeft", false);
+        }
+
+        // walking then going right
+        if (isWalking && rightPressed)
+        {
+            animator.SetBool("walkingRight", true);
+        }
+        if (!isWalking || !rightPressed)
+        {
+            animator.SetBool("walkingRight", false);
         }
     }
 
