@@ -6848,25 +6848,45 @@ MonoBehaviour:
   line: {fileID: 1628577597}
   bobber: {fileID: 886940847}
   Anchovy: {fileID: 1481102521}
+  AnchovyImage: {fileID: 736636726}
   BarredKnifeJaw: {fileID: 1060459431}
+  BarredKnifeJawImage: {fileID: 110007950}
   Bitterling: {fileID: 305393306}
+  BitterlingImage: {fileID: 1583908487}
   BlackBass: {fileID: 824260706}
+  BlackBassImage: {fileID: 782296194}
   BlueGill: {fileID: 2052745802}
+  BlueGillImage: {fileID: 529197935}
   Carp: {fileID: 2100896828}
+  CarpImage: {fileID: 285359626}
   CrucianCarp: {fileID: 768132352}
+  CrucianCarpImage: {fileID: 224875907}
   Dace: {fileID: 304768568}
+  DaceImage: {fileID: 2112702844}
   FreshWaterGoby: {fileID: 62156093}
+  FreshWaterGobyImage: {fileID: 1273255404}
   HorseMackeral: {fileID: 1290964095}
+  HorseMackeralImage: {fileID: 1553158808}
   Koi: {fileID: 175763678}
+  KoiImage: {fileID: 1273799261}
   Loach: {fileID: 392316531}
+  LoachImage: {fileID: 1960660155}
   OarFish: {fileID: 277715906}
+  OarFishImage: {fileID: 74657064}
   OliveFlounder: {fileID: 940137961}
+  OliveFlounderImage: {fileID: 626226067}
   PaleChub: {fileID: 1715574780}
+  PaleChubImage: {fileID: 1133905208}
   PondSmelt: {fileID: 1777632987}
+  PondSmeltImage: {fileID: 722268214}
   RedSnapper: {fileID: 70300736}
+  RedSnapperImage: {fileID: 2139508997}
   Salmon: {fileID: 188625942}
+  SalmonImage: {fileID: 1021870670}
   SeaBass: {fileID: 1547166451}
+  SeaBassImage: {fileID: 1142123869}
   YellowPerch: {fileID: 1997891659}
+  YellowPerchImage: {fileID: 980388485}
   delay: 3
   timeLimit: 2
 --- !u!114 &449717894
