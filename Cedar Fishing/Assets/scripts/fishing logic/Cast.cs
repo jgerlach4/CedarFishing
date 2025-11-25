@@ -107,6 +107,8 @@ public class Cast : MonoBehaviour
             if (click.triggered && fishOn.enabled == false && animator.GetBool("isCasting") == false)
             {
                 animator.SetBool("isCasting", true);
+                // ! added this trigger instead of bool. didnt delete anything, just added this line
+                animator.SetTrigger("isCastingTrigger");
                 Invoke("renderLine", 2.2f);
             }
 
