@@ -6868,6 +6868,7 @@ MonoBehaviour:
   SeaBass: {fileID: 1547166451}
   YellowPerch: {fileID: 1997891659}
   delay: 3
+  timeLimit: 2
 --- !u!114 &449717894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11091,7 +11092,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}

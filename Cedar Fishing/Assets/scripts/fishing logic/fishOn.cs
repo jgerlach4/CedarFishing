@@ -51,6 +51,10 @@ public class fishOn : MonoBehaviour
     public float delay = 3;
     float timer;
 
+    //time limit for catching fish
+    public float timeLimit = 1;
+    float timer2;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -167,6 +171,9 @@ public class fishOn : MonoBehaviour
                 fish.transform.LookAt(this.transform);
 
                 fish.SetActive(true);
+
+
+
             }
 
             if (click.triggered)
@@ -188,6 +195,27 @@ public class fishOn : MonoBehaviour
         //Use left click on the mouse, if you click as many times as the threshold, you catch the fish
         if (cast.enabled == false && move.enabled == false)
         {
+
+            timer2 += Time.deltaTime;
+            if (timer2 > timeLimit)
+            {
+                animator.SetBool("isCasting", false);
+
+                clickCount = 0;
+                timer = 0;
+                timer2 = 0;
+
+                Debug.Log("Fish Got away");
+
+                fish.SetActive(false);
+                line.SetActive(false);
+                bobber.SetActive(false);
+
+                move.enabled = true;
+                cast.enabled = true;
+                fishScript.enabled = false;
+            }
+
             fish.transform.position = bobber.transform.position;
             if (click.triggered)
             {
@@ -199,6 +227,7 @@ public class fishOn : MonoBehaviour
 
                 clickCount = 0;
                 timer = 0;
+                timer2 = 0;
 
                 Debug.Log("Fish Caught");
 
@@ -209,9 +238,8 @@ public class fishOn : MonoBehaviour
                 move.enabled = true;
                 cast.enabled = true;
                 fishScript.enabled = false;
-
-
             }
+
 
         }
 
