@@ -1,4 +1,2 @@
-# NotSegaBassFishing
-Fishing game around Cedar Lake 
-
-Unity version 6.2.8f1
+# CedarFishing
+You play as a student attending Cedarville University who has been tasked by their professor to catalog all the fish found in CedarLake. Are you up to the challenge? 
