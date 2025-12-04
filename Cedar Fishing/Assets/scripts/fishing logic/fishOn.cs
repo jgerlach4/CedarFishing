@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Subsystems;
 using System;
+using TMPro;
 
 public class fishOn : MonoBehaviour
 {
@@ -61,8 +62,14 @@ public class fishOn : MonoBehaviour
 
     private GameObject fish;
     private GameObject fishImage;
+    private string fishName;
 
     public GameObject wateraffect;
+    public GameObject wateraffectWin;
+    public GameObject WateraffectLose;
+
+    public GameObject catchingText;
+    public TMP_Text text;
 
     private int clickCount = 0;
     private int clickThreshold = 5;
@@ -111,101 +118,121 @@ public class fishOn : MonoBehaviour
                 {
                     fish = Anchovy;
                     fishImage = AnchovyImage;
+                    fishName = "Anchovy";
                 }
                 if (number == 2)
                 {
                     fish = BarredKnifeJaw;
                     fishImage = BarredKnifeJawImage;
+                    fishName = "Barred KnifeJaw";
                 }
                 if (number == 3)
                 {
                     fish = Bitterling;
                     fishImage = BitterlingImage;
+                    fishName = "Bitterling";
                 }
                 if (number == 4)
                 {
                     fish = BlackBass;
                     fishImage = BlackBassImage;
+                    fishName = "black Bass";
                 }
                 if (number == 5)
                 {
                     fish = BlueGill;
                     fishImage = BlueGillImage;
+                    fishName = "Blue Gill";
                 }
                 if (number == 6)
                 {
                     fish = Carp;
                     fishImage = CarpImage;
+                    fishName = "Carp";
                 }
                 if (number == 7)
                 {
                     fish = CrucianCarp;
-                    fishImage= CrucianCarpImage;
+                    fishImage = CrucianCarpImage;
+                    fishName = "Crucian Carp";
                 }
                 if (number == 8)
                 {
                     fish = Dace;
                     fishImage = DaceImage;
+                    fishName = "Dace";
                 }
                 if (number == 9)
                 {
                     fish = FreshWaterGoby;
                     fishImage = FreshWaterGobyImage;
+                    fishName = "Fresh Water Goby";
                 }
                 if (number == 10)
                 {
                     fish = HorseMackeral;
                     fishImage = HorseMackeralImage;
+                    fishName = "Horse Mackeral";
                 }
                 if (number == 11)
                 {
                     fish = Koi;
                     fishImage = KoiImage;
+                    fishName = "Koi";
                 }
                 if (number == 12)
                 {
                     fish = Loach;
                     fishImage = LoachImage;
+                    fishName = "Loach";
                 }
                 if (number == 13)
                 {
                     fish = OarFish;
                     fishImage = OarFishImage;
+                    fishName = "Oarfish";
                 }
                 if (number == 14)
                 {
                     fish = OliveFlounder;
                     fishImage = OliveFlounderImage;
+                    fishName = "Olive Flounder";
                 }
                 if (number == 15)
                 {
                     fish = PaleChub;
                     fishImage = PaleChubImage;
+                    fishName = "Pale Chub";
                 }
                 if (number == 16)
                 {
                     fish = PondSmelt;
                     fishImage = PondSmeltImage;
+                    fishName = "Pond Smelt";
                 }
                 if (number == 17)
                 {
                     fish = RedSnapper;
                     fishImage = RedSnapperImage;
+                    fishName = "Red Snapper";
                 }
                 if (number == 18)
                 {
                     fish = Salmon;
                     fishImage = SalmonImage;
+                    fishName = "Salmon";
                 }
                 if (number == 19)
                 {
                     fish = SeaBass;
                     fishImage = SeaBassImage;
+                    fishName = "Sea Bass";
                 }
                 if (number == 20)
                 {
                     fish = YellowPerch;
                     fishImage = YellowPerchImage;
+                    fishName = "Yellow Perch";
                 }
 
                 cast.enabled = false;
@@ -225,6 +252,11 @@ public class fishOn : MonoBehaviour
             if (click.triggered)
             {
                 Debug.Log("fish got away");
+
+                WateraffectLose.transform.position = bobber.transform.position;
+
+                WateraffectLose.SetActive(false);
+                WateraffectLose.SetActive(true);
 
                 move.enabled = true;
                 fishScript.enabled = false;
@@ -255,6 +287,11 @@ public class fishOn : MonoBehaviour
 
                 wateraffect.SetActive(false);
 
+                WateraffectLose.transform.position = bobber.transform.position;
+
+                WateraffectLose.SetActive(false);
+                WateraffectLose.SetActive(true);
+
                 fish.SetActive(false);
                 line.SetActive(false);
                 bobber.SetActive(false);
@@ -278,9 +315,19 @@ public class fishOn : MonoBehaviour
                 timer2 = 0;
 
                 Debug.Log("Fish Caught");
+                catchingText.SetActive(true);
+                text.text = "You caught a " + fishName + "!";
+                Invoke("turnOffText", 2);
+                
+
                 fishImage.SetActive(true);
 
                 wateraffect.SetActive(false);
+
+                wateraffectWin.transform.position = bobber.transform.position;
+
+                wateraffectWin.SetActive(false);
+                wateraffectWin.SetActive(true);
 
 
                 fish.SetActive(false);
@@ -296,4 +343,10 @@ public class fishOn : MonoBehaviour
         }
 
     }
+
+    void turnOffText ()
+    {
+        catchingText.SetActive(false);
+    }
+
 }
