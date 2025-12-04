@@ -62,6 +62,8 @@ public class fishOn : MonoBehaviour
     private GameObject fish;
     private GameObject fishImage;
 
+    public GameObject wateraffect;
+
     private int clickCount = 0;
     private int clickThreshold = 5;
 
@@ -211,7 +213,10 @@ public class fishOn : MonoBehaviour
 
                 fish.transform.LookAt(this.transform);
 
+                wateraffect.transform.position = bobber.transform.position;
+
                 fish.SetActive(true);
+                wateraffect.SetActive(true);
 
 
 
@@ -248,6 +253,8 @@ public class fishOn : MonoBehaviour
 
                 Debug.Log("Fish Got away");
 
+                wateraffect.SetActive(false);
+
                 fish.SetActive(false);
                 line.SetActive(false);
                 bobber.SetActive(false);
@@ -272,6 +279,8 @@ public class fishOn : MonoBehaviour
 
                 Debug.Log("Fish Caught");
                 fishImage.SetActive(true);
+
+                wateraffect.SetActive(false);
 
 
                 fish.SetActive(false);
