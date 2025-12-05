@@ -104,7 +104,7 @@ public class Cast : MonoBehaviour
 
             // Actual cast of the bobber with a left click of the mouse
             // The bobber will go to where the bobber guide is
-            if (click.triggered && fishOn.enabled == false && animator.GetBool("isCasting") == false)
+            if (click.triggered && fishOn.enabled == false && animator.GetBool("isCasting") == false && bobberGuide.transform.position.y < 18)
             {
                 animator.SetBool("isCasting", true);
                 // ! added this trigger instead of bool. didnt delete anything, just added this line
