@@ -253,6 +253,10 @@ public class fishOn : MonoBehaviour
             {
                 Debug.Log("fish got away");
 
+                catchingText.SetActive(true);
+                text.text = "The fish got away...";
+                Invoke("turnOffText", 2);
+
                 WateraffectLose.transform.position = bobber.transform.position;
 
                 WateraffectLose.SetActive(false);
@@ -284,6 +288,10 @@ public class fishOn : MonoBehaviour
                 timer2 = 0;
 
                 Debug.Log("Fish Got away");
+
+                catchingText.SetActive(true);
+                text.text = "The fish got away...";
+                Invoke("turnOffText", 2);
 
                 wateraffect.SetActive(false);
 
