@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CedarLakeArea.unity
     guid: 654985bea4697d4499cacc7223166066
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FishCollectionScene.unity
     guid: 2a7946435b6d81a4aa1add71bff03c25
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
